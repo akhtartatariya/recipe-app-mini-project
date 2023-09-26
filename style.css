@@ -9,4 +9,59 @@
 body{
   margin: 0;
   font-family: "Poppins", sans-serif; /* Use the imported font */
+  background-color: #F1F5F9;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+img{
+  max-width: 100%;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+header input{
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #eee;
+  padding: 0.5rem 1rem;
+}
+header button{
+  border: none;
+  color: #aaa;
+  margin: 0 0.5rem;
+  background-color: transparent;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+.mobile-container{
+  width: 400px;
+  background-color: white;
+  box-shadow: 0 0 10px 5px rgb(0, 0, 0, 0.1);
+  border-radius: 3px;
+  
+}
+.fav-container{
+  background-color: #f0efef;
+  padding: 1rem;
+  text-align: center;
+}
+
+.fav-meals{
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.fav-meals li{
+
+}
+.fav-meals li img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover ;
 }
